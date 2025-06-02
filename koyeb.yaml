@@ -1,0 +1,10 @@
+name: mhwrb-php-app
+routes:
+  - path: /
+    type: http
+
+build:
+  dockerfile: Dockerfile
+
+envs:
+  DATABASE_URL: "postgres://avnadmin:AVNS_YFnOXgygbxPchdHOjVI@vaultwarden-vaultwarden2323.j.aivencloud.com:20949/defaultdb?sslmode=require"
